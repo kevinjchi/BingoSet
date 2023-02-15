@@ -1,0 +1,19 @@
+
+td, th {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+  }
+  
+  td {
+    text-align: center;
+    color:  #47330c;
+    text-emphasis: bold;
+  }
+  
+  table {
+      background-color: gainsboro;
+  }
+  icon-smiley{
+    text-align: center;
+  }
