@@ -25,7 +25,7 @@ const BingoSet = () => {
       let row = [];
       for (let j = 0; j < COLUMNS; j++) {
            if (i === 2 && j === 2) {
-          row.push(<td key={j} className="icon-smiley">🥳</td>);
+          row.push(<React.Fragment key={j} className="icon-smiley">🥳</React.Fragment>);
           continue;
         }
         let filteredNumbers = numbers.filter(
@@ -48,7 +48,7 @@ const BingoSet = () => {
       let row = [];
       for (let j = 0; j < COLUMNS; j++) {
            if (i === 2 && j === 2) {
-          row.push(<td key={j} className="icon-smiley">🎶</td>);
+          row.push(<React.Fragment key={j} className="icon-smiley">🎶</React.Fragment>);
           continue;
         }
         let filteredNumbers = numbers.filter(
@@ -71,7 +71,7 @@ const BingoSet = () => {
       let row = [];
       for (let j = 0; j < COLUMNS; j++) {
            if (i === 2 && j === 2) {
-          row.push(<td key={j} className="icon-smiley">🍻</td>);
+          row.push(<React.Fragment key={j} className="icon-smiley">🍻</React.Fragment>);
           continue;
         }
         let filteredNumbers = numbers.filter(
